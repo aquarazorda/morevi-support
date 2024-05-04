@@ -22,7 +22,7 @@ export default function Home() {
 
         <div className="space-y-6">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-            Support Our Cause
+            Support Georgia&apos;s Civil Society
           </h1>
           <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed dark:text-gray-400">
             In response to the Georgian government&apos;s persistence in
