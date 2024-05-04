@@ -8,6 +8,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Support Georgia's Civil Society",
   description: `We stand against the "foreign agent bill" threatening Georgian civil society. We'll fund creative, non-violent protests in Tbilisi.`,
+  openGraph: {
+    images: ["/main.jpeg"],
+  },
 };
 
 export default function RootLayout({
