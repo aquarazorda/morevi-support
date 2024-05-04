@@ -27,13 +27,13 @@ export default function Home() {
           <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed dark:text-gray-400">
             In response to the Georgian government&apos;s persistence in
             advancing &quot;the foreign agent bill&quot; that threatens the
-            georgian civil society and is a direct threat for the tbilisi scene,
+            Georgian civil society and is a direct threat for the tbilisi scene,
             we stand united against its resurgence. The Georgian Dream
             Party&apos;s disregard for public sentiment, evidenced by their
             unwillingness to heed the voices of the people, necessitates our
-            collective action.The protests of 2023 demonstrated our capacity for
-            mobilization and our commitment to defending our rights. Now, faced
-            with renewed challenges, we recognize the importance of
+            collective action. The protests of 2023 demonstrated our capacity
+            for mobilization and our commitment to defending our rights. Now,
+            faced with renewed challenges, we recognize the importance of
             self-organization and grassroots efforts in advocating for change.{" "}
           </p>
           <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed dark:text-gray-400">
