@@ -6,13 +6,20 @@ export default function Home() {
   return (
     <section className="w-full">
       <div className="container grid items-center gap-6 px-4 md:px-6 lg:grid-cols-2 lg:gap-24">
-        <Image
-          alt="Donation Cause"
-          className="mx-auto overflow-hidden  object-cover"
-          height="366"
-          src="/main.jpeg"
-          width="650"
-        />
+        <div className="relative">
+          <Image
+            alt="Donation Cause"
+            className="mx-auto overflow-hidden  object-cover"
+            priority
+            height="366"
+            src="/main.jpeg"
+            width="650"
+          />
+          <span className="absolute opacity-80 px-2 rounded bg-black/60 text-white bottom-1 right-1">
+            © Dato Koridze
+          </span>
+        </div>
+
         <div className="space-y-6">
           <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Support Our Cause
@@ -42,7 +49,19 @@ export default function Home() {
             we will continue to stand up for our values and fight for democratic
             and european Georgia.
           </p>
+          <div className="relative md:hidden">
+            <Image
+              alt="Donation Cause"
+              className="mx-auto overflow-hidden object-cover"
+              height="366"
+              src="/footer.jpeg"
+              width="650"
+            />
 
+            <span className="absolute opacity-80 px-2 rounded bg-black/60 text-white bottom-1 right-1">
+              © Mariam Giunashvili
+            </span>
+          </div>
           <form className="w-full space-y-4">
             <Button className="flex items-center justify-center gap-2" asChild>
               <Link href="https://www.paypal.com/donate/?hosted_button_id=LSCX535FJSKYW">
