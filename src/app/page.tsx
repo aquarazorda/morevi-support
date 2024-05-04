@@ -20,8 +20,8 @@ export default function Home() {
           </span>
         </div>
 
-        <div className="space-y-6">
-          <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+        <div className="space-y-4">
+          <h1 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
             Support Georgia&apos;s Civil Society
           </h1>
           <p className="text-gray-500 md:text-xl/relaxed lg:text-base/relaxed dark:text-gray-400">
